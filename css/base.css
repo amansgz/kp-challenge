@@ -1,0 +1,61 @@
+:root {
+  /* Colors */
+  --dark-blue: #2e323f;
+  --medium-blue: #3b4050;
+  --light-blue: #6f737f;
+  --grey: #a59678;
+  --white: #fff;
+
+  /* Fonts */
+  --ff-body: "Montserrat", sans-serif;
+  --ff-heading: "Oswald", sans-serif;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--ff-body);
+}
+/* General styles */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Utilities */
+.bg-light {
+  background-color: var(--white);
+}
+.bg-dark {
+  background-color: var(--dark-blue);
+}
+.bg-grey {
+  background-color: var(--grey);
+}
+.bg-blue {
+  background-color: var(--medium-blue);
+}
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+.text-light {
+  color: var(--white);
+}
+.text-light-blue {
+  color: var(--light-blue);
+}
+.text-dark {
+  color: var(--grey);
+}
