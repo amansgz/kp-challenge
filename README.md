@@ -20,7 +20,7 @@ This project is my solution to the final challenge from Kevin Powell **Conquerin
 
 ## 🔗 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://amansgz.github.io/kp-challenge)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://amansgz.github.io/conquering-responsive-layouts)
 
 ## 📚 What I Learned
 
