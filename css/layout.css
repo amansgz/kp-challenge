@@ -19,8 +19,17 @@ footer {
   display: flex;
   flex-direction: column;
 }
-.process img {
+.process__img {
   margin-block-end: 1.8rem;
+}
+.process__step {
+  display: flex;
+  flex-direction: column;
+}
+.process__step:nth-child(3) {
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 /* -------------------------
   MEDIA QUERIES 
